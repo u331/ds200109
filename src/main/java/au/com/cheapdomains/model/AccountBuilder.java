@@ -12,14 +12,11 @@ public class AccountBuilder {
     private String email = null;
     private String userType = null;
     private String abn = null;
-
     private String businessName = null;
     private String businessType = null;
     private String businessNumber = null;
     private String userName = null;
-
     private String password = null;
-
 
     public AccountBuilder withFirstName(String firstName) {
         this.firstName = firstName;

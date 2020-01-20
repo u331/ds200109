@@ -239,6 +239,10 @@ public class Page {
         return this;
     }
 
+    public String getTag_state_field(){
+        return state_field.getTagName();
+    }
+
     public String getCssBorder_phone_number() {
         return phone_number.getCssValue("border");
     }
